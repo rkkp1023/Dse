@@ -1,0 +1,12 @@
+{
+  "name": "@rkkp1023/react-playground",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@rkkp1023/react": "*",
+    "@rkkp1023/scss": "*"
+  },
+  "scripts": {
+    "start": "nx serve"
+  }
+}

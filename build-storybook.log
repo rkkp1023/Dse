@@ -1,0 +1,105 @@
+yarn run v1.22.22
+$ nx build-storybook @org/react --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+
+> nx run @org/react:build-storybook --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+
+> storybook build --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+
+
+[90m┌[39m  Building storybook v10.2.8
+[90m│[39m
+[32m◇[39m  Cleaning outputDir:
+[90m│[39m  [36m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f[39m
+[90m│[39m
+[32m◇[39m  Loading presets
+[90m│[39m
+[32m◇[39m  Building manager..
+[90m│[39m
+[34m●[39m  Building preview..
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  [vite:dts] You are building a library that may not need to generate
+[90m│[39m  declaration files.
+
+[90m│[39m  [43mVite[49m [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[90m│[39m  [43mVite[49m transforming...
+[90m│[39m  [43mVite[49m [32m✓[39m 174 modules transformed.
+[90m│[39m  [43mVite[49m rendering chunks...
+[90m│[39m  [43mVite[49m
+[90m│[39m  [vite:dts] Start generate declaration files...
+[90m│[39m  [43mVite[49m computing gzip size...
+[90m│[39m  [43mVite[49m [vite:dts] Declaration files built in 6590ms.
+
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[32miframe.html[39m[1m[2m[22m
+[90m│[39m  [2m18.49 kB[22m[1m[22m[2m │ gzip:   5.26 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[35miframe-ih9q7yIi.css[39m[1m[2m[22m
+[90m│[39m  [2m4.56 kB[22m[1m[22m[2m │ gzip:   1.10 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mformatter-EIJCOSYU-Ba2-rswS.js[39m[1m[2m[22m
+[90m│[39m  [2m0.29 kB[22m[1m[22m[2m │ gzip:   0.24 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mindex-CU83Re1d.js[39m[1m[2m[22m
+[90m│[39m  [2m0.46 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mjsx-runtime-u17CrQMm.js[39m[1m[2m[22m
+[90m│[39m  [2m0.48 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mColor.stories-DHUudoP3.js[39m[1m[2m[22m
+[90m│[39m  [2m1.01 kB[22m[1m[22m[2m │ gzip:   0.50 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mpreload-helper-PPVm8Dsz.js[39m[1m[2m[22m
+[90m│[39m  [2m1.23 kB[22m[1m[22m[2m │ gzip:   0.71 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mSelect.stories-CHbdBdzc.js[39m[1m[2m[22m
+[90m│[39m  [2m4.31 kB[22m[1m[22m[2m │ gzip:   1.76 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
+[90m│[39m  [2m28.11 kB[22m[1m[22m[2m │ gzip:   9.82 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mmatchers-5TDFFDYO-HJu_DfWo.js[39m[1m[2m[22m
+[90m│[39m  [2m29.23 kB[22m[1m[22m[2m │ gzip:  10.06 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mColor-6BZIO3FS-lJX3Yo7p.js[39m[1m[2m[22m
+[90m│[39m  [2m29.98 kB[22m[1m[22m[2m │ gzip:  11.38 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mWithTooltip-65CFNBJE-BR2dtZaK.js[39m[1m[2m[22m
+[90m│[39m  [2m33.11 kB[22m[1m[22m[2m │ gzip:  11.67 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36msyntaxhighlighter-ED5Y7EFY-DLwnXeWO.js[39m[1m[2m[22m
+[90m│[39m  [2m78.09 kB[22m[1m[22m[2m │ gzip:  27.36 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mreact-18-6U59Z1cr.js[39m[1m[2m[22m
+[90m│[39m  [2m184.88 kB[22m[1m[22m[2m │ gzip:  58.01 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36maxe-BprjcZtc.js[39m[1m[33m[39m
+[90m│[39m  [33m579.70 kB[39m[22m[2m │ gzip: 159.59 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36mDocsRenderer-LL677BLK-Cl-NpHHh.js[39m[1m[33m[39m
+[90m│[39m  [33m803.26 kB[39m[22m[2m │ gzip: 256.99 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../../../../var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f/[22m[2massets/[22m[36miframe-2rpuyAO-.js[39m
+[90m│[39m  [36m[39m[1m[33m1,128.11 kB[39m[22m[2m │ gzip: 323.81 kB[22m
+[90m│[39m
+[33m▲[39m  [43mVite[49m[33m
+[90m│[39m  (!) Some chunks are larger than 500 kB after minification. Consider:
+[90m│[39m  - Using dynamic import() to code-split the application
+[90m│[39m  - Use build.rollupOptions.output.manualChunks to improve chunking:
+[90m│[39m  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+[90m│[39m  - Adjust chunk size limit for this warning via
+[90m│[39m  build.chunkSizeWarningLimit.[39m
+[90m│[39m  [43mVite[49m [32m✓ built in 43.06s[39m
+[90m│[39m
+[32m◇[39m  Output directory:
+[90m│[39m  /var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+[90m│[39m
+[90m└[39m  Storybook build completed successfully
+
+
+
+
+ NX   Successfully ran target build-storybook for project @org/react
+
+
+Done in 77.72s.

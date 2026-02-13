@@ -1,0 +1,74 @@
+@use 'sass:map';
+
+@use '../foundation/all' as *;
+
+.dse-select {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include padding('xs');
+    border: 1px solid $form-border-color;
+    background: $form-bg-color;
+
+    font-family: $body-font-family;
+
+    cursor: pointer;
+  }
+
+  &__caret {
+    transition: all 250ms ease;
+
+    &--open {
+      transform: rotate(180deg);
+    }
+    &--close {
+      transform: rotate(0deg);
+    }
+  }
+
+  &__overlay {
+    @include padding('none');
+    @include margin('none');
+
+    position: absolute;
+
+    border: 1px solid $form-border-color;
+    background-color: $form-bg-color;
+    z-index: 99;
+
+    list-style: none;
+
+    box-shadow: map.get($shadows, 'base');
+
+    width: 100%;
+  }
+
+  &__option {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+    @include padding('xs');
+
+    box-sizing: border-box;
+  }
+
+  &__option--highlighted {
+    background-color: $form-bg-color-hover;
+  }
+
+  &__option--selected {
+    background-color: $form-bg-option-selected;
+    color: $form-color-option-selected;
+  }
+}

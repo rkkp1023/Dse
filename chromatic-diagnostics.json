@@ -1,0 +1,554 @@
+{
+  "activity": {},
+  "announcedBuild": {
+    "id": "698f06cfd9e2f519c9a4daef",
+    "number": 4,
+    "browsers": [
+      "chrome"
+    ],
+    "status": "ANNOUNCED",
+    "autoAcceptChanges": false,
+    "features": {
+      "uiTests": true,
+      "uiReview": true,
+      "isReactNativeApp": null
+    },
+    "app": {
+      "id": "698f02afd9e2f519c9a4d83b",
+      "turboSnapAvailability": "UNAVAILABLE"
+    }
+  },
+  "buildCommand": "yarn run build-storybook --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f",
+  "buildLogFile": "/Users/ravikumar/projects/Learning/dse.learn/build-storybook.log",
+  "configuration": {},
+  "environment": {},
+  "exitCode": 255,
+  "exitCodeKey": "UNKNOWN_ERROR",
+  "fileInfo": {
+    "lengths": [
+      {
+        "pathname": "addon-visual-tests-assets/visual-test-illustration.mp4",
+        "contentLength": 0,
+        "knownAs": "addon-visual-tests-assets/visual-test-illustration.mp4"
+      },
+      {
+        "pathname": "assets/Color-6BZIO3FS-lJX3Yo7p.js",
+        "contentLength": 0,
+        "knownAs": "assets/Color-6BZIO3FS-lJX3Yo7p.js"
+      },
+      {
+        "pathname": "assets/Color.stories-DHUudoP3.js",
+        "contentLength": 0,
+        "knownAs": "assets/Color.stories-DHUudoP3.js"
+      },
+      {
+        "pathname": "assets/DocsRenderer-LL677BLK-Cl-NpHHh.js",
+        "contentLength": 0,
+        "knownAs": "assets/DocsRenderer-LL677BLK-Cl-NpHHh.js"
+      },
+      {
+        "pathname": "assets/Select.stories-CHbdBdzc.js",
+        "contentLength": 0,
+        "knownAs": "assets/Select.stories-CHbdBdzc.js"
+      },
+      {
+        "pathname": "assets/WithTooltip-65CFNBJE-BR2dtZaK.js",
+        "contentLength": 0,
+        "knownAs": "assets/WithTooltip-65CFNBJE-BR2dtZaK.js"
+      },
+      {
+        "pathname": "assets/axe-BprjcZtc.js",
+        "contentLength": 0,
+        "knownAs": "assets/axe-BprjcZtc.js"
+      },
+      {
+        "pathname": "assets/formatter-EIJCOSYU-Ba2-rswS.js",
+        "contentLength": 0,
+        "knownAs": "assets/formatter-EIJCOSYU-Ba2-rswS.js"
+      },
+      {
+        "pathname": "assets/iframe-2rpuyAO-.js",
+        "contentLength": 0,
+        "knownAs": "assets/iframe-2rpuyAO-.js"
+      },
+      {
+        "pathname": "assets/iframe-ih9q7yIi.css",
+        "contentLength": 0,
+        "knownAs": "assets/iframe-ih9q7yIi.css"
+      },
+      {
+        "pathname": "assets/index-CU83Re1d.js",
+        "contentLength": 0,
+        "knownAs": "assets/index-CU83Re1d.js"
+      },
+      {
+        "pathname": "assets/jsx-runtime-u17CrQMm.js",
+        "contentLength": 0,
+        "knownAs": "assets/jsx-runtime-u17CrQMm.js"
+      },
+      {
+        "pathname": "assets/matchers-5TDFFDYO-HJu_DfWo.js",
+        "contentLength": 0,
+        "knownAs": "assets/matchers-5TDFFDYO-HJu_DfWo.js"
+      },
+      {
+        "pathname": "assets/preload-helper-PPVm8Dsz.js",
+        "contentLength": 0,
+        "knownAs": "assets/preload-helper-PPVm8Dsz.js"
+      },
+      {
+        "pathname": "assets/react-18-6U59Z1cr.js",
+        "contentLength": 0,
+        "knownAs": "assets/react-18-6U59Z1cr.js"
+      },
+      {
+        "pathname": "assets/syntaxhighlighter-ED5Y7EFY-DLwnXeWO.js",
+        "contentLength": 0,
+        "knownAs": "assets/syntaxhighlighter-ED5Y7EFY-DLwnXeWO.js"
+      },
+      {
+        "pathname": "favicon-wrapper.svg",
+        "contentLength": 0,
+        "knownAs": "favicon-wrapper.svg"
+      },
+      {
+        "pathname": "favicon.svg",
+        "contentLength": 0,
+        "knownAs": "favicon.svg"
+      },
+      {
+        "pathname": "iframe.html",
+        "contentLength": 0,
+        "knownAs": "iframe.html"
+      },
+      {
+        "pathname": "index.d.ts",
+        "contentLength": 0,
+        "knownAs": "index.d.ts"
+      },
+      {
+        "pathname": "index.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "index.d.ts.map"
+      },
+      {
+        "pathname": "index.html",
+        "contentLength": 0,
+        "knownAs": "index.html"
+      },
+      {
+        "pathname": "index.json",
+        "contentLength": 0,
+        "knownAs": "index.json"
+      },
+      {
+        "pathname": "lib/atoms/Color/Color.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Color/Color.d.ts"
+      },
+      {
+        "pathname": "lib/atoms/Color/Color.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Color/Color.d.ts.map"
+      },
+      {
+        "pathname": "lib/atoms/Margin.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Margin.d.ts"
+      },
+      {
+        "pathname": "lib/atoms/Margin.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Margin.d.ts.map"
+      },
+      {
+        "pathname": "lib/atoms/Text/Text.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Text/Text.d.ts"
+      },
+      {
+        "pathname": "lib/atoms/Text/Text.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/Text/Text.d.ts.map"
+      },
+      {
+        "pathname": "lib/atoms/button/Button.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/button/Button.d.ts"
+      },
+      {
+        "pathname": "lib/atoms/button/Button.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/atoms/button/Button.d.ts.map"
+      },
+      {
+        "pathname": "lib/molecules/select/Select.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/molecules/select/Select.d.ts"
+      },
+      {
+        "pathname": "lib/molecules/select/Select.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/molecules/select/Select.d.ts.map"
+      },
+      {
+        "pathname": "lib/react.d.ts",
+        "contentLength": 0,
+        "knownAs": "lib/react.d.ts"
+      },
+      {
+        "pathname": "lib/react.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "lib/react.d.ts.map"
+      },
+      {
+        "pathname": "nunito-sans-bold-italic.woff2",
+        "contentLength": 0,
+        "knownAs": "nunito-sans-bold-italic.woff2"
+      },
+      {
+        "pathname": "nunito-sans-bold.woff2",
+        "contentLength": 0,
+        "knownAs": "nunito-sans-bold.woff2"
+      },
+      {
+        "pathname": "nunito-sans-italic.woff2",
+        "contentLength": 0,
+        "knownAs": "nunito-sans-italic.woff2"
+      },
+      {
+        "pathname": "nunito-sans-regular.woff2",
+        "contentLength": 0,
+        "knownAs": "nunito-sans-regular.woff2"
+      },
+      {
+        "pathname": "project.json",
+        "contentLength": 0,
+        "knownAs": "project.json"
+      },
+      {
+        "pathname": "sb-addons/a11y-3/manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/a11y-3/manager-bundle.js"
+      },
+      {
+        "pathname": "sb-addons/chromatic-com-storybook-5/manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/chromatic-com-storybook-5/manager-bundle.js"
+      },
+      {
+        "pathname": "sb-addons/chromatic-com-storybook-5/manager-bundle.js.LEGAL.txt",
+        "contentLength": 0,
+        "knownAs": "sb-addons/chromatic-com-storybook-5/manager-bundle.js.LEGAL.txt"
+      },
+      {
+        "pathname": "sb-addons/docs-4/manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/docs-4/manager-bundle.js"
+      },
+      {
+        "pathname": "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js"
+      },
+      {
+        "pathname": "sb-addons/storysource-1/manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/storysource-1/manager-bundle.js"
+      },
+      {
+        "pathname": "sb-addons/vitest-2/manager-bundle.js",
+        "contentLength": 0,
+        "knownAs": "sb-addons/vitest-2/manager-bundle.js"
+      },
+      {
+        "pathname": "sb-common-assets/favicon-wrapper.svg",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/favicon-wrapper.svg"
+      },
+      {
+        "pathname": "sb-common-assets/favicon.svg",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/favicon.svg"
+      },
+      {
+        "pathname": "sb-common-assets/nunito-sans-bold-italic.woff2",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/nunito-sans-bold-italic.woff2"
+      },
+      {
+        "pathname": "sb-common-assets/nunito-sans-bold.woff2",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/nunito-sans-bold.woff2"
+      },
+      {
+        "pathname": "sb-common-assets/nunito-sans-italic.woff2",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/nunito-sans-italic.woff2"
+      },
+      {
+        "pathname": "sb-common-assets/nunito-sans-regular.woff2",
+        "contentLength": 0,
+        "knownAs": "sb-common-assets/nunito-sans-regular.woff2"
+      },
+      {
+        "pathname": "sb-manager/globals-runtime.js",
+        "contentLength": 0,
+        "knownAs": "sb-manager/globals-runtime.js"
+      },
+      {
+        "pathname": "sb-manager/globals.js",
+        "contentLength": 0,
+        "knownAs": "sb-manager/globals.js"
+      },
+      {
+        "pathname": "sb-manager/manager-stores.js",
+        "contentLength": 0,
+        "knownAs": "sb-manager/manager-stores.js"
+      },
+      {
+        "pathname": "sb-manager/runtime.js",
+        "contentLength": 0,
+        "knownAs": "sb-manager/runtime.js"
+      },
+      {
+        "pathname": "test-setup.d.ts",
+        "contentLength": 0,
+        "knownAs": "test-setup.d.ts"
+      },
+      {
+        "pathname": "test-setup.d.ts.map",
+        "contentLength": 0,
+        "knownAs": "test-setup.d.ts.map"
+      },
+      {
+        "pathname": "vite-inject-mocker-entry.js",
+        "contentLength": 0,
+        "knownAs": "vite-inject-mocker-entry.js"
+      }
+    ],
+    "paths": [
+      "addon-visual-tests-assets/visual-test-illustration.mp4",
+      "assets/Color-6BZIO3FS-lJX3Yo7p.js",
+      "assets/Color.stories-DHUudoP3.js",
+      "assets/DocsRenderer-LL677BLK-Cl-NpHHh.js",
+      "assets/Select.stories-CHbdBdzc.js",
+      "assets/WithTooltip-65CFNBJE-BR2dtZaK.js",
+      "assets/axe-BprjcZtc.js",
+      "assets/formatter-EIJCOSYU-Ba2-rswS.js",
+      "assets/iframe-2rpuyAO-.js",
+      "assets/iframe-ih9q7yIi.css",
+      "assets/index-CU83Re1d.js",
+      "assets/jsx-runtime-u17CrQMm.js",
+      "assets/matchers-5TDFFDYO-HJu_DfWo.js",
+      "assets/preload-helper-PPVm8Dsz.js",
+      "assets/react-18-6U59Z1cr.js",
+      "assets/syntaxhighlighter-ED5Y7EFY-DLwnXeWO.js",
+      "favicon-wrapper.svg",
+      "favicon.svg",
+      "iframe.html",
+      "index.d.ts",
+      "index.d.ts.map",
+      "index.html",
+      "index.json",
+      "lib/atoms/Color/Color.d.ts",
+      "lib/atoms/Color/Color.d.ts.map",
+      "lib/atoms/Margin.d.ts",
+      "lib/atoms/Margin.d.ts.map",
+      "lib/atoms/Text/Text.d.ts",
+      "lib/atoms/Text/Text.d.ts.map",
+      "lib/atoms/button/Button.d.ts",
+      "lib/atoms/button/Button.d.ts.map",
+      "lib/molecules/select/Select.d.ts",
+      "lib/molecules/select/Select.d.ts.map",
+      "lib/react.d.ts",
+      "lib/react.d.ts.map",
+      "nunito-sans-bold-italic.woff2",
+      "nunito-sans-bold.woff2",
+      "nunito-sans-italic.woff2",
+      "nunito-sans-regular.woff2",
+      "project.json",
+      "sb-addons/a11y-3/manager-bundle.js",
+      "sb-addons/chromatic-com-storybook-5/manager-bundle.js",
+      "sb-addons/chromatic-com-storybook-5/manager-bundle.js.LEGAL.txt",
+      "sb-addons/docs-4/manager-bundle.js",
+      "sb-addons/storybook-core-server-presets-0/common-manager-bundle.js",
+      "sb-addons/storysource-1/manager-bundle.js",
+      "sb-addons/vitest-2/manager-bundle.js",
+      "sb-common-assets/favicon-wrapper.svg",
+      "sb-common-assets/favicon.svg",
+      "sb-common-assets/nunito-sans-bold-italic.woff2",
+      "sb-common-assets/nunito-sans-bold.woff2",
+      "sb-common-assets/nunito-sans-italic.woff2",
+      "sb-common-assets/nunito-sans-regular.woff2",
+      "sb-manager/globals-runtime.js",
+      "sb-manager/globals.js",
+      "sb-manager/manager-stores.js",
+      "sb-manager/runtime.js",
+      "test-setup.d.ts",
+      "test-setup.d.ts.map",
+      "vite-inject-mocker-entry.js"
+    ],
+    "statsPath": "",
+    "total": 0
+  },
+  "flags": {
+    "storybookBuildDir": [],
+    "debug": true,
+    "outputDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "fileHashing": true,
+    "interactive": true
+  },
+  "git": {
+    "version": "2.39.5",
+    "gitUserEmail": "Ravi.Kumar70@ibm.com",
+    "uncommittedHash": "a68f1f76a54365674804fb22f32b603fd7fdef71",
+    "rootPath": "/Users/ravikumar/projects/Learning/dse.learn",
+    "commit": "88344cd1c77ec09e7c8a076ccc7ec7a50234ad69",
+    "committedAt": 1770969075000,
+    "committerEmail": "Ravi.Kumar70@ibm.com",
+    "committerName": "Ravi Kumar",
+    "branch": "main",
+    "fromCI": false,
+    "parentCommits": []
+  },
+  "input": [],
+  "isOnboarding": true,
+  "isReactNativeApp": false,
+  "options": {
+    "fromCI": false,
+    "inAction": false,
+    "dryRun": false,
+    "debug": true,
+    "autoAcceptChanges": false,
+    "exitZeroOnChanges": false,
+    "exitOnceUploaded": false,
+    "diagnosticsFile": "chromatic-diagnostics.json",
+    "fileHashing": true,
+    "interactive": false,
+    "isLocalBuild": false,
+    "originalArgv": [
+      "-d",
+      "--project-token=chpt_d3cce36912c33cc",
+      "--debug"
+    ],
+    "logFile": "chromatic.log",
+    "forceRebuild": true,
+    "buildScriptName": "build-storybook",
+    "storybookLogFile": "build-storybook.log",
+    "branchName": ""
+  },
+  "packageJson": {
+    "name": "@org/source",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "build": "nx run-many -t build --all",
+      "build:affected": "nx affected -t build --parallel=3",
+      "build:libs": "nx run-many -t build --projects=foundation,react,scss --parallel=3",
+      "test": "nx run-many -t test --all",
+      "test:react": "nx test react",
+      "test:watch": "nx test react --watch",
+      "test:coverage": "nx test react --coverage",
+      "test:ui": "nx test react --ui",
+      "lint": "nx run-many -t lint --all",
+      "dev": "nx serve react-playground",
+      "start": "nx serve react-playground",
+      "storybook": "nx storybook @org/react",
+      "build-storybook": "nx build-storybook @org/react"
+    },
+    "private": true,
+    "dependencies": {
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0",
+      "react-router-dom": "6.30.3"
+    },
+    "devDependencies": {
+      "@chromatic-com/storybook": "^5.0.1",
+      "@eslint/js": "^9.8.0",
+      "@nx/eslint": "22.4.2",
+      "@nx/eslint-plugin": "22.4.2",
+      "@nx/js": "22.4.2",
+      "@nx/react": "22.4.2",
+      "@nx/storybook": "22.4.2",
+      "@nx/vite": "22.4.2",
+      "@nx/vitest": "22.4.2",
+      "@nx/web": "22.4.2",
+      "@storybook/addon-a11y": "^10.2.8",
+      "@storybook/addon-docs": "^10.2.8",
+      "@storybook/addon-storysource": "^8.6.15",
+      "@storybook/addon-vitest": "^10.2.8",
+      "@storybook/react-vite": "^10.2.8",
+      "@swc-node/register": "~1.9.1",
+      "@swc/cli": "~0.6.0",
+      "@swc/core": "~1.5.7",
+      "@swc/helpers": "~0.5.11",
+      "@testing-library/dom": "10.4.0",
+      "@testing-library/jest-dom": "^6.9.1",
+      "@testing-library/react": "16.3.0",
+      "@types/node": "20.19.9",
+      "@types/react": "^19.0.0",
+      "@types/react-dom": "^19.0.0",
+      "@vitejs/plugin-react": "^4.2.0",
+      "@vitest/coverage-v8": "^4.0.0",
+      "@vitest/ui": "^4.0.0",
+      "ajv": "^8.0.0",
+      "chromatic": "^15.1.0",
+      "eslint": "^9.8.0",
+      "eslint-config-prettier": "^10.0.0",
+      "eslint-plugin-import": "2.31.0",
+      "eslint-plugin-jsx-a11y": "6.10.1",
+      "eslint-plugin-react": "7.35.0",
+      "eslint-plugin-react-hooks": "5.0.0",
+      "jiti": "2.4.2",
+      "jsdom": "^27.1.0",
+      "jsonc-eslint-parser": "^2.1.0",
+      "nx": "22.4.2",
+      "prettier": "^2.6.2",
+      "sass": "^1.55.0",
+      "storybook": "^10.1.0",
+      "ts-node": "10.9.1",
+      "tslib": "^2.3.0",
+      "typescript": "~5.9.2",
+      "typescript-eslint": "^8.40.0",
+      "vite": "^7.0.0",
+      "vite-plugin-dts": "~4.5.0",
+      "vitest": "^4.0.0"
+    },
+    "workspaces": [
+      "packages/*",
+      "libs/*",
+      "react-playground"
+    ]
+  },
+  "packagePath": "/Users/ravikumar/projects/Learning/dse.learn/package.json",
+  "projectMetadata": {
+    "hasRouter": true,
+    "creationDate": {},
+    "numberOfCommitters": 1,
+    "numberOfAppFiles": 0
+  },
+  "runtimeMetadata": {
+    "nodePlatform": "darwin",
+    "nodeVersion": "22.19.0",
+    "packageManager": "yarn",
+    "packageManagerVersion": "1.22.22"
+  },
+  "sessionId": "e3d09f98-81cf-4d0e-b0a6-54f8ec78dcdb",
+  "sourceDir": "/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f",
+  "startedAt": 1770981150927,
+  "storybook": {
+    "version": "10.2.8",
+    "builder": {
+      "name": "unknown",
+      "packageVersion": "0"
+    },
+    "baseDir": "."
+  },
+  "task": "prepare",
+  "userError": false
+}

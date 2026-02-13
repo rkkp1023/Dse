@@ -1,0 +1,18 @@
+[13:26:45.814] [INFO] [36mInitializing Storybook[39m
+[13:26:46.807] [DEBUG] Getting package.json info for /Users/ravikumar/projects/Learning/dse.learn/libs/react/package.json...
+[13:26:46.807] [DEBUG] Getting CLI versions from NPM for storybook...
+[13:26:46.807] [DEBUG] Executing command: yarn info storybook version --json
+[13:26:50.357] [INFO] Adding Storybook version 10.2.8 to your project
+[13:26:50.358] [ERROR] [38;2;241;97;97mSB_CLI_INIT_0001 (NxProjectDetectedError): We have detected Nx in your project. Nx has its own Storybook initializer, so please use it instead.
+Run "nx g @nx/storybook:configuration <your-project-name>" to add Storybook to a given Nx app or lib.
+
+More info: https://nx.dev/nx-api/storybook#generating-storybook-configuration
+[39m
+    at ProjectTypeService.autoDetectProjectType (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/chunk-M7TYML2Y.js:735:15)
+    at async ProjectDetectionCommand.execute (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/chunk-M7TYML2Y.js:830:22)
+    at async doInitiate (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/chunk-M7TYML2Y.js:2830:143)
+    at async file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/chunk-M7TYML2Y.js:2882:20
+    at async withTelemetry (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/storybook/dist/_node-chunks/chunk-KIOKJLL5.js:218:12)
+    at async initiate (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/chunk-M7TYML2Y.js:2875:24)
+    at async _Command.<anonymous> (file:///Users/ravikumar/.npm/_npx/c98dac484ac87b2f/node_modules/create-storybook/dist/_node-chunks/run-6WTLCWSW.js:2684:144)
+[13:26:50.381] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry

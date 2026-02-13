@@ -1,0 +1,126 @@
+16:40:57.476 Chromatic CLI v15.1.0
+             https://www.chromatic.com/docs/cli 
+ 
+16:40:57.879 Authenticating with Chromatic 
+16:40:57.879     → Connecting to https://index.chromatic.com
+16:40:59.492 Authenticated with Chromatic
+                 → Using project token '****************33cc'
+16:40:59.493 Retrieving git information
+16:40:59.505 execGitCommand: git --version
+16:41:01.798 execGitCommand result: 'git version 2.39.5 (Apple Git-154)'
+16:41:02.089 execGitCommand: git --no-pager log -n 1 --format="%H ## %ct ## %ae ## %an"
+16:41:03.075 execGitCommand result: '88344cd1c77ec09e7c8a076ccc7ec7a50234ad69 ## 1770969075 ## Ravi.Kumar70@ibm.com ## Ravi Kumar'
+16:41:03.083 execGitCommand: git branch --show-current
+16:41:03.275 execGitCommand result: 'main'
+16:41:04.011 execGitCommand: git --no-pager log -n 1 --skip=1 --format="%H"
+16:41:04.113 execGitCommand result: 'd73a52dcd91ccd54446190aafaa5f8968a4e7381'
+16:41:04.114 git info: {"commit":{"commit":"88344cd1c77ec09e7c8a076ccc7ec7a50234ad69","committedAt":1770969075000,"committerEmail":"Ravi.Kumar70@ibm.com","committerName":"Ravi Kumar"},"branch":"main","fromCI":false}
+16:41:04.115 execGitCommand: git config user.email
+16:41:04.641 execGitCommand result: 'Ravi.Kumar70@ibm.com'
+16:41:04.642 execGitCommand: (git diff --name-only --no-relative --diff-filter=d --cached;git diff --name-only --no-relative --diff-filter=d;git ls-files --others --exclude-standard) | git hash-object --stdin-paths | git hash-object --stdin
+16:41:05.000 execGitCommand result: 'a68f1f76a54365674804fb22f32b603fd7fdef71'
+16:41:05.000 execGitCommand: git rev-parse --show-toplevel
+16:41:05.086 execGitCommand result: '/Users/ravikumar/projects/Learning/dse.learn'
+16:41:05.089 execGitCommandOneLine: git log --reverse --format=%cd --date=iso
+16:41:05.230 execGitCommandOneLine: git log --follow --reverse --format=%cd --date=iso -- .storybook
+16:41:05.439 execGitCommandCountLines: git shortlog -sn --all --since="6 months ago"
+16:41:05.634 execGitCommandCountLines: git ls-files -- "*page*.js" "*page*.jsx" "*page*.ts" "*page*.tsx" "*Page*.js" "*Page*.jsx" "*Page*.ts" "*Page*.tsx" "*screen*.js" "*screen*.jsx" "*screen*.ts" "*screen*.tsx" "*Screen*.js" "*Screen*.jsx" "*Screen*.ts" "*Screen*.tsx"
+16:41:06.109 execGitCommand: git config --get remote.origin.url
+16:41:06.530 execGitCommand error: Command failed with exit code 1: git config --get remote.origin.url
+16:41:06.536 Failed to retrieve Git repository slug {"shortMessage":"Command failed with exit code 1: git config --get remote.origin.url","command":"git config --get remote.origin.url","escapedCommand":"git config --get remote.origin.url","cwd":"/Users/ravikumar/projects/Learning/dse.learn","durationMs":420.219,"failed":true,"timedOut":false,"isCanceled":false,"isGracefullyCanceled":false,"isTerminated":false,"isMaxBuffer":false,"isForcefullyTerminated":false,"exitCode":1,"stdout":"","stderr":"","all":"","stdio":[null,"",""],"ipcOutput":[],"pipedFrom":[]}
+16:41:08.054 App firstBuild: %o, lastBuild: %o null null
+16:41:08.055 App has no builds, returning []
+16:41:08.055 Found parentCommits:
+16:41:09.504 Retrieved git information
+                 → Commit '88344cd' on branch 'main'; no ancestor found
+16:41:09.510 Collecting Storybook metadata
+16:41:09.511 {"storybookV6error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/ravikumar/projects/Learning/dse.learn/node_modules/chromatic/dist/chunk-TKGT252T.js","/Users/ravikumar/projects/Learning/dse.learn/node_modules/chromatic/dist/bin.js"]}}
+16:41:09.517 {"storybookV7error":{"errno":-2,"code":"ENOENT","syscall":"scandir","path":".storybook"}}
+16:41:09.544 No viewlayer package listed in dependencies. Checking transitive dependencies.
+16:41:09.547 [{"status":"fulfilled","value":{}},{"status":"fulfilled","value":{"version":"10.2.8"}},{"status":"fulfilled","value":{"builder":{"name":"unknown","packageVersion":"0"}}}]
+16:41:09.548 Collected Storybook metadata
+                 → Storybook 10.2.8; using the unknown builder (0); no supported addons found
+16:41:09.548 Initializing build
+16:41:09.548 Got environment:
+             {}
+16:41:12.076 Initialized build
+                 → Build 4 initialized
+16:41:12.114 Building your Storybook
+16:41:12.116     → Running command: yarn run build-storybook --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+16:41:12.117     → [*                   ]
+16:41:12.132 Running build command: yarn run build-storybook --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f
+16:41:12.132 Runtime metadata: {
+               "nodePlatform": "darwin",
+               "nodeVersion": "22.19.0",
+               "packageManager": "yarn",
+               "packageManagerVersion": "1.22.22"
+             }
+16:41:22.123     → [ *                  ]
+16:41:32.133     → [  *                 ]
+16:41:42.137     → [   *                ]
+16:41:52.146     → [    *               ]
+16:42:02.153     → [     *              ]
+16:42:12.164     → [      *             ]
+16:42:22.171     → [       *            ]
+16:42:30.927 Storybook built in 1 minute 19 seconds
+                 → View build log at /Users/ravikumar/projects/Learning/dse.learn/build-storybook.log
+16:42:30.927 Prepare your built Storybook
+16:42:30.927     → Validating Storybook files
+16:42:30.929     → Invalid Storybook build at /var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f (check the build log)
+
+16:42:30.947 ✖ Failed to prepare your built Storybook
+             Invalid Storybook build at /var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f (check the build log)
+             → View the full stacktrace below
+             
+             If you need help, please chat with us at https://www.chromatic.com/docs/cli for the fastest response.
+             You can also email the team at support@chromatic.com if chat is not an option.
+             
+             Please provide us with the above CLI output and the following info:
+             {
+               "timestamp": "2026-02-13T11:12:30.934Z",
+               "sessionId": "e3d09f98-81cf-4d0e-b0a6-54f8ec78dcdb",
+               "gitVersion": "2.39.5",
+               "gitBranch": "main",
+               "fromCI": false,
+               "nodePlatform": "darwin",
+               "nodeVersion": "22.19.0",
+               "packageManager": "yarn",
+               "packageManagerVersion": "1.22.22",
+               "packageName": "chromatic",
+               "packageVersion": "15.1.0",
+               "storybook": {
+                 "version": "10.2.8",
+                 "builder": {
+                   "name": "unknown",
+                   "packageVersion": "0"
+                 },
+                 "baseDir": "."
+               },
+               "flags": {
+                 "storybookBuildDir": [],
+                 "debug": true,
+                 "outputDir": [],
+                 "externals": [],
+                 "onlyStoryFiles": [],
+                 "onlyStoryNames": [],
+                 "untraced": [],
+                 "fileHashing": true,
+                 "interactive": true
+               },
+               "configuration": {},
+               "buildScript": "nx build-storybook @org/react",
+               "buildCommand": "yarn run build-storybook --output-dir=/var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f",
+               "exitCode": 0,
+               "exitCodeKey": "OK",
+               "errorType": "Error",
+               "errorMessage": "✖ Failed to prepare your built Storybook",
+               "build": {
+                 "id": "698f06cfd9e2f519c9a4daef",
+                 "number": 4
+               }
+             }
+             
+             Error: Invalid Storybook build at /var/folders/pq/pj3jmrhs48b7zlfkfg4j1htr0000gn/T/chromatic--96436-qX3VJdKk1U3f (check the build log)
+                 at bNr (/Users/ravikumar/projects/Learning/dse.learn/node_modules/chromatic/dist/chunk-HXLQH6AW.js:927:1060)
+                 at t3.task (/Users/ravikumar/projects/Learning/dse.learn/node_modules/chromatic/dist/chunk-HXLQH6AW.js:639:2671)
+16:42:30.957 ℹ Wrote Chromatic diagnostics report to chromatic-diagnostics.json
