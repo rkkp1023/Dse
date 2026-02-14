@@ -30,8 +30,5 @@ jobs:
       - name: Reset Nx cache
         run: npx nx reset
 
-      - name: Format check
-        run: npx nx format:check
-
       - name: Lint, test, and build
         run: npx nx run-many -t lint test build

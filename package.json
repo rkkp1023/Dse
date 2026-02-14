@@ -15,7 +15,7 @@
     "dev": "nx serve react-playground",
     "start": "nx serve react-playground",
     "storybook": "nx storybook @rkkp1023/react",
-    "build-storybook": "nx build-storybook @rkkp1023/react",
+    "build-storybook": "yarn build && nx build-storybook @rkkp1023/react",
     "chromatic": "npx chromatic --project-token=chpt_d3cce36912c33cc --storybook-build-dir=libs/react/storybook-static"
   },
   "private": true,
