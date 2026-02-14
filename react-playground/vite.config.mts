@@ -27,7 +27,7 @@ export default defineConfig(() => ({
     },
   },
   test: {
-    name: '@org/react-playground',
+    name: '@rkkp1023/react-playground',
     watch: false,
     globals: true,
     environment: 'jsdom',
