@@ -24,7 +24,14 @@ jobs:
           node-version: 20
           cache: 'yarn'
 
-      - run: yarn install --frozen-lockfile
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
 
-      - run: npx nx format:check
-      - run: npx nx run-many -t lint test build
+      - name: Reset Nx cache
+        run: npx nx reset
+
+      - name: Format check
+        run: npx nx format:check
+
+      - name: Lint, test, and build
+        run: npx nx run-many -t lint test build
